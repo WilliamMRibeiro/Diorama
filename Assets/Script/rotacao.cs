@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotação : MonoBehaviour
+public class rotacao : MonoBehaviour
 {
+
     public GameObject prefab;
     public float rotatespeed;
+    
 
-    void FixedUpdate()
+    private void Start()
     {
-        prefab.transform.Rotate(Vector3.up * rotatespeed * Time.deltaTime);   
+
+        prefab.transform.Rotate(Vector3.up, rotatespeed * Time.deltaTime);
+
     }
 
-   
 }
+
+
+
+
