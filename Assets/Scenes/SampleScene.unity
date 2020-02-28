@@ -292,8 +292,8 @@ MonoBehaviour:
   nuvem: {fileID: 506512866568308096, guid: 5e7ebd1a06ed2b7408177fe1557e8b89, type: 3}
   minZpos: 25
   maxZpos: 30
-  maxXpos: -90
-  minYpos: -15
+  maxXpos: -92
+  minYpos: -20
   maxYpos: 33
 --- !u!4 &917020240
 Transform:
@@ -385,13 +385,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: -0, y: 27.9, z: -45.8}
+  m_LocalRotation: {x: 0.22495107, y: 0, z: 0, w: 0.9743701}
+  m_LocalPosition: {x: 0, y: 27.9, z: -45.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 26, y: 0, z: 0}
 --- !u!33 &242585242882807459
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1689,7 +1689,7 @@ Transform:
   m_GameObject: {fileID: 8296172668128457394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 7606006755818764495}
   - {fileID: 8833720298782091253}
@@ -2856,11 +2856,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8296172668128457394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d15d6f0c6d5bcd48b09231c80c46926, type: 3}
+  m_Script: {fileID: 11500000, guid: b0aa2ebf25037f04fa84e55dbd891fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 8296172668128457394}
-  rotatespeed: 5
+  rotatespeed: 10
 --- !u!33 &8321614794442842241
 MeshFilter:
   m_ObjectHideFlags: 0
