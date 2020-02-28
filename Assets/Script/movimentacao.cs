@@ -5,15 +5,14 @@ using UnityEngine;
 public class movimentacao : MonoBehaviour
 {
     public GameObject GameObject;
-    
     public float speed;
 
     
     private void Update()
     {
 
-        GameObject.transform.Translate(Vector3.right * speed * Time.deltaTime); 
-        
+        GameObject.transform.Translate(Vector3.right * speed * Time.deltaTime);
+                       
     }
 
 
