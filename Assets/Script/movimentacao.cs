@@ -10,9 +10,12 @@ public class movimentacao : MonoBehaviour
     
     private void Update()
     {
+       
 
         GameObject.transform.Translate(Vector3.right * speed * Time.deltaTime);
-                       
+
+        
+
     }
 
 

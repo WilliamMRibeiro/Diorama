@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8338718207968894018}
   - component: {fileID: 660553904445362677}
   - component: {fileID: 6952492328751290794}
+  - component: {fileID: 6939981861653404612}
   m_Layer: 0
   m_Name: Nuvem.01
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7154216435239251408}
   m_LocalRotation: {x: -0.49526563, y: 0.5018017, z: 0.5063749, w: 0.496479}
   m_LocalPosition: {x: 1.0560851, y: 0.7503074, z: 0.2893834}
-  m_LocalScale: {x: 485.23828, y: 485.2381, z: 485.23804}
+  m_LocalScale: {x: 500, y: 500, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,3 +79,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &6939981861653404612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7154216435239251408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffbc27d300d1ce4b919caae374ea16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
