@@ -9,7 +9,7 @@ public class rotacao : MonoBehaviour
     public float rotatespeed;
     
 
-    private void Start()
+    private void Update()
     {
 
         prefab.transform.Rotate(Vector3.up, rotatespeed * Time.deltaTime);
